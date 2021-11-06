@@ -11,7 +11,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: blue;
+    border-bottom: 2px solid black;
     z-index:3;
 }
 
@@ -21,6 +21,15 @@ body{
 }
 
 
+#navbar button{
+   
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+}
+
 
 #main-container{
     display:flex;
@@ -28,7 +37,6 @@ body{
     align-items:center;
     justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: red;
     height:100vh;
     margin:0;
 }
@@ -41,5 +49,12 @@ body{
      margin-top:20px;
      border-radius: 0.5rem;
      cursor:pointer;
+}
+
+#color-text{
+    color:white;
+    background-color: black;
+    padding:10px 50px;
+    border-radius: 0.5rem;
 }
 
