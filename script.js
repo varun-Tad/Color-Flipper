@@ -7,6 +7,8 @@ const colorText = document.querySelector("#color-text");
 const colorArr=['red','green','yellow','blue','violet','magenta']
 
 
+
+
 const pickColor= function()
 {
    let ranNum = Math.trunc(Math.random()*6)
